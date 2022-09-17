@@ -8,4 +8,5 @@
   * Extruder: Orbiter v1.5
   * Hotend fan: Sunon MF40202V2-A99 24V
   * Part fan: 2x WINSINN 5015 24V "Dual Ball" Hydraulic Bearing
+  * ABL: Antclabs BLTouch Smart V3.1 (genuine)
 
