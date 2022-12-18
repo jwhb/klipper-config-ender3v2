@@ -10,3 +10,20 @@
   * Part fan: 2x WINSINN 5015 24V "Dual Ball" Hydraulic Bearing
   * ABL: Antclabs BLTouch Smart V3.1 (genuine)
 
+## Slicer Config
+
+### Start G-Code
+
+```
+M104 S0 ; removes slicer "set hotend temp"
+M140 S0 ; removes slicer "set bed temp"
+M107 ; turn off fans
+START_PRINT BED_TEMP={first_layer_bed_temperature} EXTRUDER_TEMP={first_layer_temperature}
+```
+
+### End G-Code
+
+```
+END_PRINT
+```
+
